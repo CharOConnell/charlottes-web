@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Baskervville:100,200,300,400,500,600,700|Solway:100,200,300,400,500,600,700');
+
+/* Colours */
+body {
+    background-color: #232120;
+    margin: 0;
+    color: #fafafa;
+    min-width: 100vw;
+}
+
+/* Generic settings */
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Header */
+.heading-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #1C1716;
+    color: #ea6623;
+    min-height: 15vh;
+    min-width: 100vw;
+}
+
+.home-pic {
+    background: url("../images/homephoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 50%;
+    min-height: 15vh;
+}
+
+.my-name {
+    position: relative;
+    align-items: left;
+    padding-top: 1%;
+    padding-left: 10;
+    font-family: "Baskervville", sans-serif;
+    font-weight: bold;
+    font-size: 4.5vh;
+}
+
+/* Nav bar */
+.heading-container a {
+    height: 15vh;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    color: #ea6623;
+    width: 100vw;
+}
+
+.heading-container a i {
+    background-color: #1C1716;
+    color: #ea6623;
+    font-size: 4.5vh;
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 15vh;
+    transform: translateY(40%);
+    transition: color 0.35s ease-in-out;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out;
+}
+
+.nav-bar {
+    float: right;
+    font-size: 20px;
+    margin: 100px 20px 0;
+    min-width: 70%;
+}
+
+li.list-inline-item {
+    padding: 0 20px;
+}
+
+.navbar-link {
+    color: #ea6623;
+    text-decoration: none;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-link:hover {
+    color: #fff;
+}
+
+.dropdown-bar {
+    list-style: none;
+    position: absolute;
+    padding-left: 0;
+    right: 0;
+    margin: 0;
+    width: fit-content;
+    top: 10vh;
+    z-index: 2;
+    text-align: center;
+    transform: translateY(-50vh);
+    transition: transform .7s ease-in-out;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    padding: 10px;
+    transition: color .5s ease-in-out;
+    font-size: 20px;
+}
+
+.dropdown-link:hover {
+    color: #1c1716;
+    font-weight: bold;
+}
+
+.dropdown {
+    width: 150px;
+    position: relative;
+}
+
+.dropdown i:hover {
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-bar {
+    transform: translateY(0);
+}
+
+/* Sections */
+.heading {
+    padding: 10px 20px;
+    color: #fafafa;
+    background-color: #ea6623;
+    font-family: "Solway", sans-serif;
+}
+
+.section-welcome-photo {
+    height: 95vh;
+    background: url("../images/welcomephoto.jpg") no-repeat bottom left fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+}
+
+.section-about-me {
+    height: 100vh;
+    position: relative;
+    display: block;
+}
+
+.section-gallery {
+
+}
+
+.section-contact {
+
+}
+
+.section-experience-software {
+
+}
+
+.section-experience-work {
+
+}
+
+.section-experience-education {
+
+}
+
+.section-experience-github {
+
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #ea6623;
+    color: #fafafa;
+    min-height: 10vh;
+    margin: 0;
+}
+
+.socials {
+    padding-top: 30px;
+}
+
+.socials li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fff;
+    background: #ea6623;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.socials li a i:hover {
+    background-color: #fff;
+    color: #ea6623;
+}
+
+
+
