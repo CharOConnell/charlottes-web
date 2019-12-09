@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Baskervville:100,200,300,400,500,600,700|Solway:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Nunito:100,200,300,400,500,600,700');
 
 /* Colours */
 body {
@@ -6,6 +6,7 @@ body {
     margin: 0;
     color: #fafafa;
     min-width: 100vw;
+    font-family: "Karla", sans-serif;
 }
 
 /* Generic settings */
@@ -31,7 +32,7 @@ body {
 }
 
 .home-pic {
-    background: url("../images/homephoto.jpg");
+    background: url("../images/homepage/homephoto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +46,6 @@ body {
     align-items: left;
     padding-top: 1%;
     padding-left: 10;
-    font-family: "Baskervville", sans-serif;
     font-weight: bold;
     font-size: 4.5vh;
 }
@@ -58,33 +58,37 @@ body {
     text-decoration: none;
     color: #ea6623;
     width: 100vw;
-    font-family: "Baskervville", sans-serif;
 }
 
 .heading-container a i {
     color: #ea6623;
     background-color: transparent;
     font-size: 3vh;
-    padding-right: 10vw;
-    padding-top: 2vh;
+    padding-top: 6vh;
     display: block;
+    float: center;
     position: relative;
-    transform: translateY(80%);
     transition: color 0.35s ease-in-out;
     -moz-transition: color 0.35s ease-in-out;
     -webkit-transition: color 0.35s ease-in-out;
     -o-transition: color 0.35s ease-in-out;
 }
 
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-bar {
     float: right;
-    font-size: 20px;
-    margin: 100px 20px 0;
+    font-size: 17px;
+    margin: 0;
+    padding-top: 10vh;
     min-width: 70%;
 }
 
 li.list-inline-item {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .navbar-link {
@@ -146,7 +150,6 @@ li.list-inline-item {
     padding: 5px 20px;
     color: #fff;
     background-color: #ea6623;
-    font-family: "Baskervville", sans-serif;
     font-size: 4.5vh;
 }
 
@@ -154,13 +157,12 @@ li.list-inline-item {
     padding: 5px 20px;
     color: #fff;
     background-color: #ea6623;
-    font-family: "Baskervville", sans-serif;
     font-size: 3vh;
 }
 
 .section-welcome-photo {
     height: 95vh;
-    background: url("../images/welcomephoto.jpg") no-repeat bottom left fixed;
+    background: url("../images/homepage/welcomephoto.jpg") no-repeat bottom left fixed;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -179,7 +181,6 @@ li.list-inline-item {
     min-height: 100vh;
     position: relative;
     display: block;
-    font-family: "Baskervville", sans-serif;
     padding: 0;
     width: 100vw;
 }
