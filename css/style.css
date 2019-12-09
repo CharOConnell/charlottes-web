@@ -13,6 +13,11 @@ body {
     text-transform: uppercase;
 }
 
+.text-center {
+    max-width: 100vw;
+    padding: 0;
+}
+
 /* Header */
 .heading-container {
     position: relative;
@@ -59,8 +64,9 @@ body {
 .heading-container a i {
     color: #ea6623;
     background-color: transparent;
-    font-size: 4.5vh;
-    padding: 0;
+    font-size: 3vh;
+    padding-right: 10vw;
+    padding-top: 2vh;
     display: block;
     position: relative;
     transform: translateY(80%);
@@ -102,7 +108,7 @@ li.list-inline-item {
     right: 0;
     margin: 0;
     width: fit-content;
-    top: 20vh;
+    top: 15vh;
     z-index: 2;
     text-align: center;
     transform: translateY(-300%);
@@ -138,10 +144,18 @@ li.list-inline-item {
 /* Sections */
 .heading {
     padding: 5px 20px;
-    color: #fafafa;
+    color: #fff;
     background-color: #ea6623;
     font-family: "Baskervville", sans-serif;
     font-size: 4.5vh;
+}
+
+.sub-heading {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #ea6623;
+    font-family: "Baskervville", sans-serif;
+    font-size: 3vh;
 }
 
 .section-welcome-photo {
@@ -156,15 +170,27 @@ li.list-inline-item {
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100vw;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 
 .section-std {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     display: block;
     font-family: "Baskervville", sans-serif;
+    padding: 0;
+    width: 100vw;
 }
+
+.section-column {
+    display: table-cell;
+    padding: 0;
+    float: none;
+    width: 100vw;
+}
+
 
 /* About Me */
 
@@ -173,29 +199,17 @@ li.list-inline-item {
 
 /* Gallery */
 .section-gallery {
-    height: 200vh;
+    min-height: 200vh;
     position: relative;
     display: block;
 }
 
 
 /* Experience */
-.section-experience-software {
-
+.experience-content {
+    padding: 1.5vh;
+    padding-left: 3vw;
 }
-
-.section-experience-work {
-
-}
-
-.section-experience-education {
-
-}
-
-.section-experience-github {
-
-}
-
 
 /* Contact */
 .form-control {
@@ -221,6 +235,8 @@ button[type="submit"] {
 
 .contact-title {
     margin-top: 5vh;
+    padding: 0;
+    max-width: 100vw;
 }
 
 h4 a {
