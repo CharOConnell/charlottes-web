@@ -254,7 +254,7 @@ li.list-inline-item {
 }
 
 .intro-sub a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #fff;
 }
 
