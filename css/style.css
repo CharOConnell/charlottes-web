@@ -182,8 +182,8 @@ li.list-inline-item {
 
 /* Sections */
 .section-welcome-photo {
-    height: 75vh;
-    background: url("../images/homepage/home-page.JPG") no-repeat bottom left fixed;
+    height: 85vh;
+    background: url("../images/homepage/home-page.JPG") no-repeat center center fixed;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
