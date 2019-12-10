@@ -83,6 +83,7 @@ body {
     -o-transition: color 0.35s ease-in-out;
 }
 
+/* Large format navigation bar */
 .navigation {
     margin: 0;
     padding: 0;
@@ -95,6 +96,7 @@ body {
     margin: 0;
     padding-top: 10vh;
     min-width: 70%;
+    color: #ea6623;
 }
 
 li.list-inline-item {
@@ -102,21 +104,24 @@ li.list-inline-item {
 }
 
 .navbar-link {
-    color: #ea6623;
     text-decoration: none;
     font-size: 3vh;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out;
+}
+
+.navbar-link:hover {
+    color: #fff;
 }
 
 
+/* Small format icon dropdown */
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #373;
     color: #fff;
     z-index: 1;
 }
@@ -321,8 +326,8 @@ li.list-inline-item {
 }
 
 .graduation img {
-    max-width: 50vw;
-    max-height: 50vw;
+    max-width: 30vw;
+    max-height: 30vw;
     padding: 5px 0;
 }
 
