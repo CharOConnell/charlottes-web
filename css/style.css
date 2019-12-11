@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:100,200,300,400,500,600,700');
 
-/* Colours */
+/* --------------------- Colours --------------------- */
 body {
     background-color: #232120;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     font-family: "Karla", sans-serif;
 }
 
-/* Generic settings */
+/* --------------------- Generic settings --------------------- */
 .uppercase {
     text-transform: uppercase;
 }
@@ -28,7 +28,7 @@ body {
     background-color: #ea6623;
 }
 
-/* Header */
+/* --------------------- Header ---------------------*/
 .heading-container {
     position: relative;
     top: 0;
@@ -59,22 +59,8 @@ body {
     font-size: 4.5vh;
 }
 
-.heading-container a i {
-    color: #ea6623;
-    background-color: transparent;
-    font-size: 3vh;
-    padding-top: 6vh;
-    display: block;
-    float: center;
-    position: relative;
-    transition: color 0.35s ease-in-out;
-    -moz-transition: color 0.35s ease-in-out;
-    -webkit-transition: color 0.35s ease-in-out;
-    -o-transition: color 0.35s ease-in-out;
-}
-
-/* Navbar */
-#navalert-container {
+/* --------------------- Navbar --------------------- */
+#nav-container {
     position: absolute;
     top: 3.5vh;
     right: 5vh;
@@ -100,13 +86,13 @@ body {
 }
 
 
-#navbarNavDropdown {
+#navbar-dropdown {
     padding-right: 3vw;
     padding-top: 4vh;
 }
 
 
-/* Sections */
+/* --------------------- Sections --------------------- */
 .section-welcome-photo {
     height: 85vh;
     background: url("../images/homepage/home-page.JPG") no-repeat center center fixed;
@@ -161,7 +147,7 @@ body {
     font-size: 3vh;
 }
 
-/* About Me */
+/* --------------------- About Me --------------------- */
 .intro-title {
     font-size: 3vh;
     color: #ea6623;
@@ -183,7 +169,7 @@ body {
     color: #ea6623;
 }
 
-/* Gallery */
+/* --------------------- Gallery --------------------- */
 .section-gallery {
     min-height: 200vh;
     position: relative;
@@ -208,7 +194,7 @@ body {
     padding-top: 5px;
 }
 
-/* Experience */
+/* --------------------- Experience --------------------- */
 .experience-content {
     padding: 10px;
     padding-left: 0;
@@ -231,7 +217,6 @@ body {
     color: #ea6623;
 }
 
-
 @media(min-width: 768px) {
     .experience-content {
         padding-left: 3vw;
@@ -252,7 +237,7 @@ body {
     padding: 5px 0;
 }
 
-/* Contact */
+/* --------------------- Contact --------------------- */
 .form-control {
     background-color: #1c1716;
     color: #fff;
@@ -303,8 +288,7 @@ button[type="submit"] {
     text-decoration: none;
 }
 
-/* Footer */
-
+/* --------------------- Footer --------------------- */
 footer {
     background-color: #ea6623;
     color: #fafafa;
@@ -336,6 +320,4 @@ footer {
     background-color: #fff;
     color: #ea6623;
 }
-
-
 
