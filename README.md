@@ -7,10 +7,9 @@ This is my personal profile website which I can present to prospective employers
 
 [Mock up skeleton](https://balsamiq.cloud/sen1h0s/p2g4sax) done after discussion about original with mentor
 Add in hand drawn photo.
-[image overlay](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
-[test it](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade)
 [overlay name bottom bit](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp)
 
+hamburger menu [here](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar)
 
 css-tricks was very handy:
 To sort out the emailing functionality on the contact page I used [this](https://css-tricks.com/all-about-mailto-links/) page.
