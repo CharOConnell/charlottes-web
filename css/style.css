@@ -41,6 +41,7 @@ body {
 }
 
 .home-pic {
+    opacity: 1;
     background: url("../images/homepage/homephoto.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -48,6 +49,15 @@ body {
     display: block;
     border-radius: 50%;
     min-height: 15vh;
+    margin: 15px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.home-pic:hover {
+    opacity: 0.5;
 }
 
 .my-name {
@@ -142,9 +152,11 @@ body {
 
 .sub-heading {
     padding: 5px 20px;
-    color: #fff;
-    background-color: #ea6623;
+    color: #ea6623;
     font-size: 3vh;
+    border: solid 1px #ea6623;
+    border-radius: 15px;
+    text-align: center;
 }
 
 /* --------------------- About Me --------------------- */
@@ -152,6 +164,7 @@ body {
     font-size: 3vh;
     color: #ea6623;
     padding: 1vw;
+    text-align: center;
 }
 
 .intro-sub {
@@ -183,15 +196,26 @@ body {
 }
 
 #photo {
-    padding: 0.5vw;
+    padding: 0.7vw;
 }
 
-.titleish {
-    font-size: 2.3vh;
-    color: #ea6623;
-    text-decoration: none;
-    padding-left: 1vw;
-    padding-top: 5px;
+.overlay {
+  position: absolute; 
+  bottom: 0.7vw; 
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff; 
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 0.5vw;
+  right: 0.7vw;
+  text-align: center;
+}
+
+#photo:hover .overlay {
+  opacity: 1;
 }
 
 /* --------------------- Experience --------------------- */
