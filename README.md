@@ -26,7 +26,7 @@ I created an original skeleton page using the Balsamiq software which was then m
 In addition to this, to have a more simple working base, I hand drew some very simplistic schemes. 
 
 These simplistic schemes can be seen here: 
-- ![Home page wireframe](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/homepage.jpg)
+- ![Home page wireframe](images/mockup/homepage.jpg)
 - ![Résumé wireframe](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/experience.jpg)
 - ![Gallery wireframe](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/gallery.jpg)
 - ![Contact resume](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/contact.jpg)
