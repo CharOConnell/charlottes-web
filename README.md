@@ -27,9 +27,9 @@ In addition to this, to have a more simple working base, I hand drew some very s
 
 These simplistic schemes can be seen here: 
 - ![Home page wireframe](images/mockup/homepage.jpg)
-- ![Résumé wireframe](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/experience.jpg)
-- ![Gallery wireframe](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/gallery.jpg)
-- ![Contact resume](https://github.com/CharOConnell/charlottes-web/tree/master/images/mockup/contact.jpg)
+- ![Résumé wireframe](images/mockup/experience.jpg)
+- ![Gallery wireframe](images/mockup/gallery.jpg)
+- ![Contact resume](images/mockup/contact.jpg)
 
 #### Surface
 The dark colour scheme with orange was designed to feel modern yet chic for both employer and personal users. 
