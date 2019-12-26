@@ -26,6 +26,7 @@ I created an original skeleton page using the Balsamiq software which was then m
 In addition to this, to have a more simple working base, I hand drew some very simplistic schemes. 
 
 These simplistic schemes can be seen here: 
+
 ![Home page wireframe](images/mockup/homepage.jpg)
 ![Résumé wireframe](images/mockup/experience.jpg)
 ![Gallery wireframe](images/mockup/gallery.jpg)
