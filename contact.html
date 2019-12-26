@@ -1,102 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Charlotte's Web | Contact</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<title>Charlotte's Web | Contact</title>
 </head>
 
 <body>
-    <header class="heading-container container-fluid">
-		<div class="row">
-			<a href="index.html" class="col-3 col-md-2 col-lg-1 home-pic"></a>
-			<div class="col-6 col-md-7 col-lg-5 my-name uppercase">Charlotte O'Connell</div>
+	<!-- NAVBAR HEADER -->
+	<header class="heading-container container-fluid">
+		<div class="row no-gutters">
+			<div class="row">
+				<a href="index.html" class="col-xs-1 col-2 col-lg-1 home-pic"></a>
+				<div class="col-6 col-md-7 my-name uppercase">Charlotte O'Connell</div>
+			</div>
+			<nav class="col-2 navbar-expand-xl col-xl-6 navbar-dark" id="nav-container">
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+				<div class="collapse navbar-collapse" id="navbar-dropdown">
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item ml-auto"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="index.html#about-me">About Me</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="experience.html">Résumé</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="gallery.html">Gallery</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</header>
-	<nav class="navbar navbar-dark navbar-expand-lg col-4 col-lg-6" id="nav-container">
-		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
 
-		<div class="collapse navbar-collapse" id="navbar-dropdown">
-			<ul class="navbar-nav ml-lg-auto">
-				<li class="nav-item ml-auto"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item ml-auto"><a class="nav-link" href="index.html#about-me">About Me</a></li>
-				<li class="nav-item ml-auto"><a class="nav-link" href="experience.html">Résumé</a></li>
-				<li class="nav-item ml-auto"><a class="nav-link" href="gallery.html">Gallery</a></li>
-				<li class="nav-item ml-auto"><a class="nav-link" href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
+	<!-- CONTACT FORM -->
+	<section class="section-contact container-fluid">
+		<h3 class="heading">Contact Me</h3>
+		<div class="row contact-title">
+			<div class="col-12 text-center">
+				<p>Want to work with me?</p>
+				<p>Or do you want more information?</p>
+				<p>Please send me an <a target="_blank"
+						href="mailto:charlotteoconnell@virginmedia.com?subject=New Client!&body=Hi."
+						type="email">email</a></p>
 
-
-
-    <section class="section-contact container-fluid">
-        <h3 class="heading">Contact Me</h3>
-        <div class="row contact-title">
-            <div class="col-12 text-center">
-                <p>Want to work with me?</p>
-                <p>Or do you want more information?</p>
-                <p>Please send me an <a target="_blank" href="mailto:charlotteoconnell@virginmedia.com?subject=New Client!&body=Hi." type="email">email</a></p>
-                
-                <div class="center-form">
-                    <form action="mailto:charlotteoconnell@virginmedia.com" method="post">
-                        <input type="text" name="name" id="name" class="form-control" placeholder="Type your name here" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Type your email address here" required />
-                        <input type="text" name="subject" id="subject" class="form-control" placeholder="The subject of your message" required />
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Type your message here" required></textarea>
+				<div class="center-form">
+					<form action="mailto:charlotteoconnell@virginmedia.com" method="post">
+						<input type="text" name="name" id="name" class="form-control" placeholder="Type your name here" required />
+						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Type your email address here" required />
+						<input type="text" name="subject" id="subject" class="form-control" placeholder="The subject of your message" required />
+						<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Type your message here" required></textarea>
 						<div class="form-row text-center">
 							<div class="col">
 								<button type="submit" class="btn">Send Email</button>
 							</div>
 						</div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    
-    </section>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col d-flex justify-content-center">
-                <ul class="list-inline socials">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/charoconnell94/">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>                        
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/oconc">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>                        
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://github.com/CharOConnell/">
-                            <i class="fa fa-github" aria-hidden="true"></i>
-                            <span class="sr-only">GitHub</span>                        
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://uk.linkedin.com/in/charlotte-o-connell-4a4092124?trk=people-guest_profile-result-card_result-card_full-click">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>                        
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+	<!-- FOOTER -->
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col d-flex justify-content-center">
+				<ul class="list-inline socials">
+					<li class="list-inline-item">
+						<a target="_blank" href="https://www.instagram.com/charoconnell94/">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="https://www.facebook.com/oconc">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="https://github.com/CharOConnell/">
+							<i class="fa fa-github" aria-hidden="true"></i>
+							<span class="sr-only">GitHub</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank"
+							href="https://uk.linkedin.com/in/charlotte-o-connell-4a4092124?trk=people-guest_profile-result-card_result-card_full-click">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">LinkedIn</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	<!-- JAVA SOURCE CODE -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,37 +13,41 @@
 </head>
 
 <body>
+	<!-- NAVBAR HEADER -->
 	<header class="heading-container container-fluid">
-		<div class="row">
-			<a href="index.html" class="col-3 col-md-2 col-lg-1 home-pic"></a>
-			<div class="col-6 col-md-7 col-lg-5 my-name uppercase">Charlotte O'Connell</div>
+		<div class="row no-gutters">
+			<div class="row">
+				<a href="index.html" class="col-xs-1 col-2 col-lg-1 home-pic"></a>
+				<div class="col-6 col-md-7 my-name uppercase">Charlotte O'Connell</div>
+			</div>
+			<nav class="col-2 navbar-expand-xl col-xl-6 navbar-dark" id="nav-container">
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+				<div class="collapse navbar-collapse" id="navbar-dropdown">
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item ml-auto"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="index.html#about-me">About Me</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="experience.html">Résumé</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="gallery.html">Gallery</a></li>
+						<li class="nav-item ml-auto"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</header>
-	<nav class="navbar navbar-dark navbar-expand-lg col-4 col-lg-6" id="nav-container">
-		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-dropdown" aria-controls="navbar-dropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
 
-		<div class="collapse navbar-collapse" id="navbar-dropdown">
-			<ul class="navbar-nav ml-lg-auto">
-				<li class="nav-item ml-auto"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item ml-auto"><a class="nav-link" href="index.html#about-me">About Me</a></li>
-				<li class="nav-item ml-auto"><a class="nav-link" href="experience.html">Résumé</a></li>
-				<li class="nav-item ml-auto"><a class="nav-link" href="gallery.html">Gallery</a></li>
-				<li class="nav-item ml-auto"><a class="nav-link" href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-
-
+	<!-- EXPERIENCE SECTION -->
 	<h3 class="heading">Experience</h3>
 	<section class="section-std section-column">
+		<!-- SOFTWARE -->
 		<div class="sub-heading uppercase">Software</div>
 		<div class="row container-fluid experience-content">
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase"><i class="fa fa-tv"></i>   &nbsp Front end development</p>
+						<p class="uppercase"><i class="fa fa-tv"></i> &nbsp Front end development</p>
 						<hr class="horrule">
 						<p>Within the Full Stack Web Development course, I have been learning the following
 							front end development languages and frameworks:</p>
@@ -60,7 +63,7 @@
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase"><i class="fa fa-gears"></i>   &nbsp Back end development</p>
+						<p class="uppercase"><i class="fa fa-gears"></i> &nbsp Back end development</p>
 						<hr class="horrule">
 						<p>Within the Full Stack Web Development course, I have been learning the following
 							back end development languages and frameworks:</p>
@@ -75,7 +78,7 @@
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase"><i class="fa fa-linux"></i>   &nbsp Operating systems</p>
+						<p class="uppercase"><i class="fa fa-linux"></i> &nbsp Operating systems</p>
 						<hr class="horrule">
 						<p>I have used Linux as my main distribution since I was 8 years old, over this time
 							I have experienced the following operating systems:</p>
@@ -94,7 +97,7 @@
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase"><i class="fa fa-code"></i>   &nbsp Other software</p>
+						<p class="uppercase"><i class="fa fa-code"></i> &nbsp Other software</p>
 						<hr class="horrule">
 						<p>Throughout my engineering career, I have learned the following software:</p>
 						<ul>
@@ -110,12 +113,14 @@
 			</div>
 		</div>
 
+		<!-- WORK EXPERIENCE -->
 		<div class="sub-heading uppercase">Work</div>
 		<div class="row container-fluid experience-content">
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase titleish"><i class="fa fa-wrench"></i>   &nbsp OTM Servo Mechanism Ltd. - Design Test Engineer</p>
+						<p class="uppercase titleish"><i class="fa fa-wrench"></i> &nbsp OTM Servo Mechanism Ltd. -
+							Design Test Engineer</p>
 						<p class="uppercase">August 2019 - Present</p>
 						<hr class="horrule">
 						<ul class="cv-section">
@@ -135,7 +140,8 @@
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase titleish"><i class="fa fa-wrench"></i>   &nbsp Delphi Technologies - Development Engineer</p>
+						<p class="uppercase titleish"><i class="fa fa-wrench"></i> &nbsp Delphi Technologies -
+							Development Engineer</p>
 						<p class="uppercase">June 2016 - August 2019</p>
 						<hr class="horrule">
 						<ul class="cv-section">
@@ -158,7 +164,8 @@
 			<div class="col-11 offset-1 offset-md-0 col-md-6">
 				<div class="row">
 					<div class="col-12">
-						<p class="uppercase titleish"><i class="fa fa-wrench"></i>   &nbsp Delphi Diesel Systems - Placement Engineer</p>
+						<p class="uppercase titleish"><i class="fa fa-wrench"></i> &nbsp Delphi Diesel Systems -
+							Placement Engineer</p>
 						<p class="uppercase">August 2014 - August 2015</p>
 						<hr class="horrule">
 						<ul class="cv-section">
@@ -173,84 +180,94 @@
 			</div>
 		</div>
 
-
+		<!-- EDUCATION HISTORY -->
 		<div class="sub-heading uppercase">Education</div>
 		<div class="row container-fluid graduation">
 			<div class="col-4 offset-4">
 				<img src="../images/experience/graduation.jpg" alt="Graduation Photo">
 			</div>
-		</div>
-        <div class="row container-fluid experience-content">
-            <div class="col-11 offset-1 offset-md-0 col-md-6">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="uppercase titleish"><i class="fa fa-university"></i>   &nbsp Code institute - Full Stack Web Development</p>
-                        <p class="uppercase">September 2019 - Present</p>
-                        <hr class="horrule">
-                        <ul>
-                            <li>Programming Paradigms</li>
-                            <li>HTML Fundamentals</li>
-                            <li>CSS Fundamentals</li>
-                            <li>User Centric Frontend Development (With Project)</li>
-                            <li>JavaScript Fundamentals</li>
-                            <li>Interactive Frontend Development (With Project)</li>
-                            <li>Python Fundamentals</li>
-                            <li>Practical Python</li>
-                            <li>Data Centric Development (With Project)</li>
-                            <li>Full Stack Frameworks with Django</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-11 offset-1 offset-md-0 col-md-6">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="uppercase titleish"><i class="fa fa-graduation-cap"></i>   &nbsp Brunel University - Mathematics BSc First Class (Hons)</p>
-                        <p class="uppercase">September 2012 - June 2016</p>
-                        <hr class="horrule">
-                        <p>Final Year Modules: </p>
-                        <ul>
-                            <li>Numerical Methods for Differential Equations (A+)</li>
-                            <li>Complex Variable Methods and Applications (A+)</li>
-                            <li>Ordinary and Partial Differential Equations (A)</li>
-                            <li>Stochastic Models (A)</li>
-                            <li>Dissertation – Theory and Computation of Impact Stresses in Elastic Rods (B+)</li>
-                            <li>Project computing implicit and explicit scheme of a finite difference method numerical solution whilst
-simulating asset payoffs (Asset or Nothing and Fixed Strike Lookback Options) within MATLAB</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+			</div>
+			<div class="row container-fluid experience-content">
+				<div class="col-11 offset-1 offset-md-0 col-md-6">
+					<div class="row">
+						<div class="col-12">
+							<p class="uppercase titleish"><i class="fa fa-university"></i> &nbsp Code institute - Full
+								Stack Web Development</p>
+							<p class="uppercase">September 2019 - Present</p>
+							<hr class="horrule">
+							<ul>
+								<li>Programming Paradigms</li>
+								<li>HTML Fundamentals</li>
+								<li>CSS Fundamentals</li>
+								<li>User Centric Frontend Development (With Project)</li>
+								<li>JavaScript Fundamentals</li>
+								<li>Interactive Frontend Development (With Project)</li>
+								<li>Python Fundamentals</li>
+								<li>Practical Python</li>
+								<li>Data Centric Development (With Project)</li>
+								<li>Full Stack Frameworks with Django</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-11 offset-1 offset-md-0 col-md-6">
+					<div class="row">
+						<div class="col-12">
+							<p class="uppercase titleish"><i class="fa fa-graduation-cap"></i> &nbsp Brunel University -
+								Mathematics BSc First Class (Hons)</p>
+							<p class="uppercase">September 2012 - June 2016</p>
+							<hr class="horrule">
+							<p>Final Year Modules: </p>
+							<ul>
+								<li>Numerical Methods for Differential Equations (A+)</li>
+								<li>Complex Variable Methods and Applications (A+)</li>
+								<li>Ordinary and Partial Differential Equations (A)</li>
+								<li>Stochastic Models (A)</li>
+								<li>Dissertation – Theory and Computation of Impact Stresses in Elastic Rods (B+)</li>
+								<li>Project computing implicit and explicit scheme of a finite difference method
+									numerical solution whilst
+									simulating asset payoffs (Asset or Nothing and Fixed Strike Lookback Options) within
+									MATLAB</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 
-
+			<!-- GITHUB PROJECT -->
 			<div class="sub-heading uppercase">GitHub Projects</div>
 			<div class="row container-fluid experience-content">
 				<div class="col-11 offset-1 offset-md-0 col-md-6 col-lg-4">
 					<div class="row">
 						<div class="col-12 col-md-10">
-							<a href="https://github.com/CharOConnell/fun-with-keyframes" target="_blank" class="uppercase titleish"><i class="fa fa-cog"></i>   &nbsp Keyframes</a>
+							<a href="https://github.com/CharOConnell/fun-with-keyframes" target="_blank"
+								class="uppercase titleish"><i class="fa fa-cog"></i> &nbsp Keyframes</a>
 							<hr class="horrule">
-							<p>Learning about how keyframes work with different iterations of animations revolving, rotating and bouncing.
-                            Click on the project title to go to the repository page.</p>
+							<p>Learning about how keyframes work with different iterations of animations revolving,
+								rotating and bouncing.
+								Click on the project title to go to the repository page.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-11 offset-1 offset-md-0 col-md-6 col-lg-4">
 					<div class="row">
 						<div class="col-12 col-md-10">
-							<a href="https://github.com/CharOConnell/my-first-website" target="_blank" class="uppercase titleish"><i class="fa fa-cloud"></i>   &nbsp My First Website</a>
+							<a href="https://github.com/CharOConnell/my-first-website" target="_blank"
+								class="uppercase titleish"><i class="fa fa-cloud"></i> &nbsp My First Website</a>
 							<hr class="horrule">
-							<p>As part of the Code Institute course I have developed a website with links and external logos for each of the programming languages learnt within the course.</p>
+							<p>As part of the Code Institute course I have developed a website with links and external
+								logos for each of the programming languages learnt within the course.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-11 offset-1 offset-md-0 col-md-6 col-lg-4">
 					<div class="row">
 						<div class="col-12 col-md-10">
-							<a href="https://github.com/CharOConnell/whiskey-drop" target="_blank" class="uppercase titleish"><i class="fa fa-beer"></i>   &nbsp Whiskey Drop</a>
+							<a href="https://github.com/CharOConnell/whiskey-drop" target="_blank"
+								class="uppercase titleish"><i class="fa fa-beer"></i> &nbsp Whiskey Drop</a>
 							<hr class="horrule">
-							<p>Learning the fundamentals of Bootstrap grids within a tutorial in the aforementioned course.</p>
+							<p>Learning the fundamentals of Bootstrap grids within a tutorial in the aforementioned
+								course.</p>
 						</div>
 					</div>
 				</div>
@@ -258,7 +275,7 @@ simulating asset payoffs (Asset or Nothing and Fixed Strike Lookback Options) wi
 
 	</section>
 
-
+	<!-- FOOTER -->
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="col d-flex justify-content-center">
@@ -293,7 +310,8 @@ simulating asset payoffs (Asset or Nothing and Fixed Strike Lookback Options) wi
 		</div>
 	</footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	<!-- JAVA SOURCE CODE -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -303,5 +321,4 @@ simulating asset payoffs (Asset or Nothing and Fixed Strike Lookback Options) wi
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
 </body>
-
 </html>
