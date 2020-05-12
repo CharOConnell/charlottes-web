@@ -329,6 +329,11 @@ button .navbar-toggler .navbar-toggler-icon {
     padding: 5px 0;
 }
 
+..experience-content ul a {
+    text-decoration: underline;
+    color: #fff;
+}
+
 /* --------------------- Contact --------------------- */
 .form-control {
     background-color: #1c1716;
