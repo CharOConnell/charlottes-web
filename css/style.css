@@ -329,7 +329,7 @@ button .navbar-toggler .navbar-toggler-icon {
     padding: 5px 0;
 }
 
-..experience-content ul a {
+.experience-content ul a {
     text-decoration: underline;
     color: #fff;
 }
